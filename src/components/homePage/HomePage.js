@@ -38,10 +38,10 @@ const HomePage = () => {
 
         <div className='homepage-nav'>
 
-          <Link to='/Pieces-of-Myself/' className='homepage-nav-text'>
+          <Link to='/Athens-Monitor-Website/' className='homepage-nav-text'>
             <p>Home</p>
           </Link>
-          <Link to='/Pieces-of-Myself/about' className='homepage-nav-text'>
+          <Link to='/Athens-Monitor-Website/about' className='homepage-nav-text'>
             <p>About</p>
           </Link>
 
@@ -55,9 +55,9 @@ const HomePage = () => {
           {/* <div className='homepage-about'>
             <Route path="/Pieces-of-Myself/about" element={<MdDisplay inputMdText={about} />} />
           </div> */}
-          <Route path="/Pieces-of-Myself/about" element={<AboutPage about={about} />} />
-          <Route path="/Pieces-of-Myself/" element={<TableOfContents />} />
-          <Route path="/Pieces-of-Myself/static/media/:path" element={<ArticlePage />} />
+          <Route path="/Athens-Monitor-Website/about" element={<AboutPage about={about} />} />
+          <Route path="/Athens-Monitor-Website/" element={<TableOfContents />} />
+          <Route path="/Athens-Monitor-Website/static/media/:path" element={<ArticlePage />} />
         </Routes>
 
 
