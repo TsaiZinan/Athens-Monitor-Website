@@ -7,8 +7,10 @@
 .tableOfContents-about {
   color: var(--main-font-color-2);
 
-  display: flex;
-  /* justify-content: center; */
+  text-align: center;
+
+  /* display: flex;
+  justify-content: center; */
 }
 
 .tableOfContents-main {

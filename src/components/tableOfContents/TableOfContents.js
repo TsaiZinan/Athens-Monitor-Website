@@ -114,7 +114,7 @@ const TableOfContents = props => {
       </div>
       {
         // display the year by descending
-        Object.keys(tableOfContentsHandle()).sort().reverse().map((year, yearIndex) => {
+        Object.keys(tableOfContentsHandle()).sort().map((year, yearIndex) => {
           // console.log(year);
           // console.log(tableOfContentsHandle()[year][0]);
           return (
@@ -124,7 +124,7 @@ const TableOfContents = props => {
               </div>
 
               {/* display the month by descending */}
-              {Object.keys(tableOfContentsHandle()[year][0]).sort().reverse().map((month, monthIndex) => {
+              {Object.keys(tableOfContentsHandle()[year][0]).sort().map((month, monthIndex) => {
                 // console.log(month);
                 // console.log(tableOfContentsHandle()[year][0][month]);
                 return (
@@ -134,7 +134,7 @@ const TableOfContents = props => {
                     </div>
 
                     {/* display the title by date descending */}
-                    {tableOfContentsHandle()[year][0][month].reverse().map((title, titleIndex) => {
+                    {tableOfContentsHandle()[year][0][month].map((title, titleIndex) => {
                       // console.log(title);
                       // console.log(tableOfContentsHandle()[year][0][month][0].Title);
                       return (
