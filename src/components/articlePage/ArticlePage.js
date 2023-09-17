@@ -9,7 +9,7 @@ import MdDisplay from '../mdDisplay/MdDisplay';
 const ArticlePage = props => {
 
   const { path } = useParams();
-  let mdPath = 'Athens-Monitor-Website/static/media/' + path
+  let mdPath = '/Pieces-of-Myself/static/media/' + path
 
   return (
     <div className='articlePage'>
