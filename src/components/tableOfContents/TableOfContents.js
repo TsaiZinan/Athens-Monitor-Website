@@ -60,7 +60,7 @@ const TableOfContents = props => {
 
     // remove '/Pieces-of-Myself' from each link
     const filenameObjectWithKeyAndLink = filenameObjectWithKey.map(item => {
-      item.link = item.link.replace('/Pieces-of-Myself', '');
+      item.link = item.link.replace('/Athens-Monitor-Website', '');
       return item;
     });
 
