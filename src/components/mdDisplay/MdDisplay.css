@@ -1,0 +1,43 @@
+/* .Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(99, 112, 107, 0.45);
+    z-index: 200;
+} */
+
+
+.modal-image {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--main-font-color);
+    border-radius: 18px;
+}
+
+
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--main-bg-color);
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--main-font-color);
+    border-radius: 10px;
+    color: var(--main-font-color);
+    font-size: 3em;
+    line-height: 80%;
+    cursor: pointer;
+}

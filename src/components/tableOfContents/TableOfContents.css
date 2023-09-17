@@ -1,0 +1,207 @@
+.tableOfContents {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.tableOfContents-about {
+  color: var(--main-font-color-2);
+
+  text-align: center;
+
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.tableOfContents-short-title {
+  background-color: var(--main-bg-color);
+
+  position: relative;
+  z-index: 2;
+
+  display: table;
+  width: fit-content;
+  
+  margin-bottom: -16px; 
+  margin-left: 10px;
+
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.tableOfContents-short-title-link {
+  color: var(--main-font-color-2);
+  text-decoration: none;
+}
+
+.tableOfContents-short {
+  position: relative;
+  z-index: 1;
+
+  /* display: flex;
+  align-items: flex-start; */
+
+  color: var(--main-font-color-2);
+
+  /* text-align: center; */
+  /* line-height: 6px; */
+
+  border: 3px solid;
+  border-radius: 10px;
+
+  padding: 20px;
+
+  /* display: flex; */
+  /* justify-content: center; */
+
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tableOfContents-short::-webkit-scrollbar {
+  display: none;
+}
+
+.tableOfContents-short h4{
+  margin-top: -16px;
+  font-weight: 500;
+  /* margin-bottom: 30px; */
+}
+
+.tableOfContents-short p{
+  font-size: 17px;
+}
+
+.tableOfContents-short img{
+  border-radius: 8px;
+  /* max-width: 50%; */
+}
+
+
+
+
+
+
+.tableOfContents-main {
+  display: flex;
+  flex-direction: column;
+
+  /* margin-bottom: 10px; */
+  margin-top: 30px;
+  /* align-items: flex-start; */
+
+}
+
+.tableOfContents-year {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--main-font-color);
+
+  display: flex;
+  justify-content: center;
+
+  /* padding-left: 10px;
+  border-left: solid 2px var(--main-font-color); */
+}
+
+/* .tableOfContents-month-block {
+  margin-left: 5px;
+} */
+
+.tableOfContents-month {
+  font-size: 1rem;
+  color: var(--main-font-color);
+
+  display: flex;
+  justify-content: flex-start;
+
+  padding-left: 4px;
+  border-left: solid 2px var(--main-font-color);
+}
+
+.tableOfContents-title-block {
+  display: flex;
+  /* align-items: center; */
+
+  margin-top: 5px;
+  margin-bottom: 15px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
+
+.tableOfContents-title-block-dateBlock {
+  width: 35px; /* 可根据实际需要调整 */
+  max-width: 35px;
+  height: 44px; /* 可根据实际需要调整 */
+  max-height: 44px;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  /* height: 100%; */
+
+  /* margin: 5px 7px 0 0; */
+  /* padding-top: 6px; */
+  padding-right: 7px;
+  /* padding: 9px 7px 0 0; */
+}
+
+.tableOfContents-title-block-dateBlock-month {
+  font-size: 15px; /* 可根据实际需要调整 */
+  line-height: 15px;
+  /* font-weight: bold; */
+  color: var(--main-bg-color);
+  background-color: var(--main-font-color);
+  border-radius: 4px 4px 0 0;
+  padding: 0.5px; /* 可根据实际需要调整 */
+  text-align: center;
+  width: 100%;
+  border: 1px solid transparent; /* 新增的样式 */
+}
+
+.tableOfContents-title-block-dateBlock-day {
+  font-size: 14px; /* 可根据实际需要调整 */
+  line-height: 14px;
+  color: var(--main-font-color);
+  background-color: var(--main-bg-color);
+  border-radius: 0 0 4px 4px;
+  padding: 0.5px; /* 可根据实际需要调整 */
+  text-align: center;
+  width: 100%;
+  border: 1px solid var(--main-font-color); /* 新增的样式 */
+}
+
+
+
+
+
+
+
+
+
+
+/* p.tableOfContents-title-block-dateBlock-day {
+  margin: 0;
+} */
+
+.tableOfContents-title {
+  text-decoration: none;
+  color: rgb(108, 124, 112);
+  font-size: 2rem;
+  
+}
+
+
+
+
+@media screen and (max-width: 710px) {
+  .tableOfContents {
+    width: 85%;
+  }
+}
