@@ -1,4 +1,5 @@
 const config = {
+  projectName:'Athens-Monitor-Website',
   isDebugMode: false,
   isShort: false,
   githubUrl: 'https://github.com/TsaiZinan',

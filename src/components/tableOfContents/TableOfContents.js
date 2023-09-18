@@ -58,9 +58,9 @@ const TableOfContents = props => {
     // console.log('----------1.5-----------')
     // console.log(filenameObjectWithKey)
 
-    // remove '/Pieces-of-Myself' from each link
+    // remove '/projectName' from each link
     const filenameObjectWithKeyAndLink = filenameObjectWithKey.map(item => {
-      item.link = item.link.replace('/Athens-Monitor-Website', '');
+      item.link = item.link.replace('/'+config.projectName, '');
       return item;
     });
 
