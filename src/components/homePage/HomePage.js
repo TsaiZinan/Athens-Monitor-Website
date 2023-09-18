@@ -40,13 +40,13 @@ const HomePage = () => {
         <div className='homepage-nav'>
 
           <Link to='/' className='homepage-nav-text'>
-            <p>Home</p>
+            <p>目录</p>
           </Link>
           {/* <Link to='/about' className='homepage-nav-text'>
             <p>About</p>
           </Link> */}
           <Link to='/about' className='homepage-nav-text'>
-            <p>About</p>
+            <p>关于</p>
           </Link>
 
         </div>
