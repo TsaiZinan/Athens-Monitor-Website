@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Athens-Monitor-Website/static/css/main.898f54c6.css",
+    "main.css": "/Athens-Monitor-Website/static/css/main.19327174.css",
     "main.js": "/Athens-Monitor-Website/static/js/main.575855c0.js",
     "static/js/787.fe6f73fd.chunk.js": "/Athens-Monitor-Website/static/js/787.fe6f73fd.chunk.js",
     "static/media/20130717-第二期.md": "/Athens-Monitor-Website/static/media/20130717-第二期.5527ce3270dc7c880bc4.md",
@@ -22,12 +22,12 @@
     "index.html": "/Athens-Monitor-Website/index.html",
     "static/media/about.md": "/Athens-Monitor-Website/static/media/about.e245f3e2342a901ad5df.md",
     "static/media/title.md": "/Athens-Monitor-Website/static/media/title.432b34367d3986264a53.md",
-    "main.898f54c6.css.map": "/Athens-Monitor-Website/static/css/main.898f54c6.css.map",
+    "main.19327174.css.map": "/Athens-Monitor-Website/static/css/main.19327174.css.map",
     "main.575855c0.js.map": "/Athens-Monitor-Website/static/js/main.575855c0.js.map",
     "787.fe6f73fd.chunk.js.map": "/Athens-Monitor-Website/static/js/787.fe6f73fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.898f54c6.css",
+    "static/css/main.19327174.css",
     "static/js/main.575855c0.js"
   ]
 }
