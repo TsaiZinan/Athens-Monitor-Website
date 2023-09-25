@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Athens-Monitor-Website/static/css/main.8df5f049.css",
-    "main.js": "/Athens-Monitor-Website/static/js/main.2c325723.js",
+    "main.js": "/Athens-Monitor-Website/static/js/main.9f337788.js",
     "static/js/787.fe6f73fd.chunk.js": "/Athens-Monitor-Website/static/js/787.fe6f73fd.chunk.js",
     "static/media/20130920-D186特刊.md": "/Athens-Monitor-Website/static/media/20130920-D186特刊.36aefeff347b0da5f125.md",
     "static/media/20130717-第二期.md": "/Athens-Monitor-Website/static/media/20130717-第二期.ce47c67fc51b19ee4245.md",
@@ -19,9 +19,13 @@
     "static/media/20130919-D185.md": "/Athens-Monitor-Website/static/media/20130919-D185.6e95d6a142d9c81cbeb8.md",
     "static/media/20130802-D137特刊下.md": "/Athens-Monitor-Website/static/media/20130802-D137特刊下.b2b7f479be296c1d86f3.md",
     "static/media/20130915-D181特刊上.md": "/Athens-Monitor-Website/static/media/20130915-D181特刊上.d2567f69f57437f07405.md",
+    "static/media/20131001-D197.md": "/Athens-Monitor-Website/static/media/20131001-D197.a181e5c4c3e8f158ebe6.md",
+    "static/media/20131004-D200.md": "/Athens-Monitor-Website/static/media/20131004-D200.854b7b9914d9ed0720f0.md",
     "static/media/20130907-D173.md": "/Athens-Monitor-Website/static/media/20130907-D173.de63fc7acf1a18ecd290.md",
     "static/media/20130726-D130特刊下.md": "/Athens-Monitor-Website/static/media/20130726-D130特刊下.4698252803b5b1818291.md",
+    "static/media/20131003-D199.md": "/Athens-Monitor-Website/static/media/20131003-D199.6ae70eefd9f1aeec4624.md",
     "static/media/20130915-D181特刊下.md": "/Athens-Monitor-Website/static/media/20130915-D181特刊下.3b02b1cf7135690487cd.md",
+    "static/media/20131002-D198.md": "/Athens-Monitor-Website/static/media/20131002-D198.5bac0addbf671306898f.md",
     "static/media/20130726-D130特刊上.md": "/Athens-Monitor-Website/static/media/20130726-D130特刊上.1efa33429b1eef45e07b.md",
     "static/media/20130917-D183.md": "/Athens-Monitor-Website/static/media/20130917-D183.2cf52e7a3c01724461fb.md",
     "static/media/README.md": "/Athens-Monitor-Website/static/media/README.2194cd04418286ff1ae1.md",
@@ -30,11 +34,11 @@
     "static/media/about.md": "/Athens-Monitor-Website/static/media/about.e245f3e2342a901ad5df.md",
     "static/media/title.md": "/Athens-Monitor-Website/static/media/title.432b34367d3986264a53.md",
     "main.8df5f049.css.map": "/Athens-Monitor-Website/static/css/main.8df5f049.css.map",
-    "main.2c325723.js.map": "/Athens-Monitor-Website/static/js/main.2c325723.js.map",
+    "main.9f337788.js.map": "/Athens-Monitor-Website/static/js/main.9f337788.js.map",
     "787.fe6f73fd.chunk.js.map": "/Athens-Monitor-Website/static/js/787.fe6f73fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8df5f049.css",
-    "static/js/main.2c325723.js"
+    "static/js/main.9f337788.js"
   ]
 }
